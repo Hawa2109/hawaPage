@@ -1,0 +1,196 @@
+.col-1 {
+  width: 8.333333%;
+  padding: 25px;
+}
+.col-2 {
+  width: 16.6666%;
+  padding: 25px;
+}
+.col-3 {
+  width: 25%;
+  padding: 25px;
+}
+.col-4 {
+  width: 33.333333%;
+  padding: 25px;
+}
+.col-5 {
+  width: 41.6666666%;
+  padding: 25px;
+}
+.col-6 {
+  width: 50%;
+  padding: 25px;
+}
+.col-7 {
+  width: 58.333333%;
+  padding: 25px;
+}
+.col-8 {
+  width: 66.666666%;
+  padding: 25px;
+}
+.col-9 {
+  width: 75%;
+  padding: 25px;
+}
+.col-10 {
+  width: 83.333333%;
+  padding: 25px;
+}
+.col-11 {
+  width: 91.666666%;
+  padding: 25px;
+}
+.col-12 {
+  width: 100%;
+  padding: 25px;
+}
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto condense, sans-serif;
+  background-color: rgb(178, 197, 233);
+}
+
+nav img {
+  border-radius: 50%;
+  width: 55px;
+  align-items: start;
+  margin-left: auto;
+  float: left;
+}
+
+.navbar {
+  background-color: rgb(178, 197, 233);
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #030163;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #7fa0cb;
+  color: rgb(15, 2, 102);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(122, 2, 2);
+  font-weight: bold;
+  font-size: large;
+  height: 90px;
+}
+section h2 {
+  text-align: center;
+}
+.section1 {
+  display: flex;
+}
+.section1 .nom {
+  font-weight: bold;
+}
+.section1 img {
+  border-radius: 85% 85% 0 0;
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.para2 {
+  text-decoration: underline;
+}
+.section1 p {
+  margin-left: 40px;
+}
+.section1 P :first-child {
+  text-align: center;
+}
+.section1 .para1 {
+  font-weight: bold;
+}
+
+button {
+  background-color: #100375;
+  color: rgb(161, 201, 247);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  margin-left: 30%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.section2 img {
+  width: 50%;
+  height: auto;
+  float: right;
+  border-radius: 10% 10% 10% 10%;
+  margin-left: 4%;
+}
+.section2 .Paragraphe1 {
+  font-weight: bold;
+  text-align: left;
+}
+.section2 p {
+  text-align: justify;
+  margin-left: 2%;
+}
+.section2 a {
+  text-align: center;
+  margin-left: 4%;
+  font-weight: bold;
+  color: rgb(113, 2, 11);
+}
+.section3 .para1 {
+  text-align: left;
+  font-weight: bold;
+  color: rgb(104, 2, 2);
+  margin-left: 10%;
+}
+.section3 img {
+  width: 50%;
+  border-radius: 0 15% 0 15%;
+  margin-right: 30px;
+}
+.paragraphe4 {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 25%;
+  font-size: large;
+}
+
+video {
+  border-radius: 0 0 0 0;
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+  display: block;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 900;
+}
+footer .logo {
+  border-radius: 55%;
+  width: 55px;
+  margin-left: 90%;
+}
+footer img {
+  border-radius: 0 15% 0 15%;
+}
