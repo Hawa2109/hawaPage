@@ -184,12 +184,13 @@ video {
 
 footer p {
   text-align: center;
-  font-weight: 900;
+  font-weight: 500px;
 }
 footer .logo {
   border-radius: 55%;
   width: 55px;
   margin-left: 90%;
+  align-items: flex-end;
 }
 footer img {
   border-radius: 0 15% 0 15%;
