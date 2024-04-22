@@ -1,3 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto condense, sans-serif;
+  background-color: rgb(178, 197, 233);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .col-1 {
   width: 8.333333%;
   padding: 25px;
@@ -46,66 +67,88 @@
   width: 100%;
   padding: 25px;
 }
-.row {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: Roboto condense, sans-serif;
-  background-color: rgb(178, 197, 233);
-}
-
-nav img {
-  border-radius: 50%;
-  width: 55px;
-  align-items: start;
-  margin-left: auto;
-  float: left;
-}
-
-.navbar {
-  background-color: rgb(178, 197, 233);
-  overflow: hidden;
-}
-
-.navbar a {
-  float: right;
-  display: block;
-  color: #030163;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  background-color: #7fa0cb;
-  color: rgb(15, 2, 102);
-}
 
 h1 {
   text-align: center;
   color: rgb(122, 2, 2);
   font-weight: bold;
-  font-size: large;
+  font-size: 70px;
   height: 90px;
 }
-section h2 {
+
+h2 {
   text-align: center;
+  font-weight: bold;
+  font-size: 24px;
 }
-.section1 {
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* PARTIE HEADER */
+
+.headerFlex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+header img {
+  border-radius: 50%;
+  width: 10%;
+  height: 10%;
+  /* align-items: start; */
+  /* margin-left: auto; */
+  /* float: left; */
+}
+
+.headerPadding {
+  padding: 0;
+  /* vertical-align: middle; */
+}
+
+.navbar {
+  background-color: rgb(178, 197, 233);
+  /* padding: 25px; */
+  /* vertical-align: middle; */
+  /* overflow: hidden; */
+}
+
+.navbar a {
+  /* float: right; */
+  /* display: block; */
+  color: #030163;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #7fa0cb;
+  color: #ffffff;
+}
+
+/* PARTIE MAIN */
+
+/* SECTION 1 / A PROPOS */
+
 .section1 .nom {
   font-weight: bold;
 }
 .section1 img {
   border-radius: 85% 85% 0 0;
-  width: 50%;
-  float: left;
-  margin-right: 30px;
+}
+
+.monCV {
+  text-align: center;
+  /* margin: 0 auto; */
 }
 .para2 {
   text-decoration: underline;
@@ -120,34 +163,41 @@ section h2 {
   font-weight: bold;
 }
 
-button {
+.button {
   background-color: #100375;
   color: rgb(161, 201, 247);
   padding: 14px 20px;
-  margin: 8px 0;
+  display: inline-block;
+  /* margin: 0 auto; */
   border: none;
-  cursor: pointer;
+  /* cursor: pointer; */
   width: 30%;
-  margin-left: 30%;
+  margin-left: 250px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
 }
 
-button:hover {
+.button:hover {
   opacity: 0.8;
 }
+
+/* PARTIE SECTION 2 / A PROPOS DU JEU */
+
 .section2 img {
-  width: 50%;
-  height: auto;
-  float: right;
-  border-radius: 10% 10% 10% 10%;
-  margin-left: 4%;
+  /* width: 50%; */
+  /* height: auto; */
+  /* float: right; */
+  border-radius: 15%;
+  /* margin-left: 4%; */
 }
 .section2 .Paragraphe1 {
-  font-weight: bold;
-  text-align: left;
+  /* font-weight: bold;
+  text-align: left; */
 }
 .section2 p {
   text-align: justify;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
 .section2 a {
   text-align: center;
@@ -155,6 +205,8 @@ button:hover {
   font-weight: bold;
   color: rgb(113, 2, 11);
 }
+
+/* PARTIE SECTION 3 / HISTOIRE DE BOU */
 .section3 .para1 {
   text-align: left;
   font-weight: bold;
@@ -162,7 +214,7 @@ button:hover {
   margin-left: 10%;
 }
 .section3 img {
-  width: 50%;
+  /* width: 50%; */
   border-radius: 0 15% 0 15%;
   margin-right: 30px;
 }
@@ -173,14 +225,18 @@ button:hover {
   font-size: large;
 }
 
-video {
-  border-radius: 0 0 0 0;
-  width: 50%;
-  height: 50%;
-  border-radius: 5%;
+/* PARTIE SECTION EXTRAIT VIDEO */
+
+iframe {
+  /* border-radius: 0 0 0 0; */
+  /* width: 50%; */
+  /* height: 50%; */
+  /* border-radius: 15%; */
   display: block;
   margin: 0 auto;
 }
+
+/* PARTIE FOOTER */
 
 footer p {
   text-align: center;
@@ -188,7 +244,8 @@ footer p {
 }
 footer .logo {
   border-radius: 55%;
-  width: 55px;
+  width: 10%;
+  height: 10%;
   margin-left: 90%;
   align-items: flex-end;
 }

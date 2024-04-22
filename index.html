@@ -13,134 +13,152 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="container">
-      <header>
-        <nav class="navbar">
-          <img src="Images/logo3.jpeg" alt="Logo" />
-
-          <a href="#accueil" class="active">Accueil</a>
-          <a href="#AProposDuJeu"> A propos du jeu</a>
-          <a href="#HistoireDeBou">histoire de Bou</a>
-          <a href="#Contact">Contact</a>
+      <header class="headerFlex">
+        <img src="Images/logo3.jpeg" alt="Logo" />
+        <nav class="navbar headerFlex">
+          <a href="#accueil" class="">Accueil</a>
+          <a href="#AProposDuJeu" class=""> A propos du jeu</a>
+          <a href="#HistoireDeBou" class="">Histoire de Bou</a>
+          <a href="#Contact" class="">Contact</a>
         </nav>
       </header>
+
       <main>
         <h1>Developpeuse web</h1>
+        <!-- SECTION A PROPOS -->
         <section class="section1">
-          <img src="Images/PHmoi.jpg" alt="Une photo de l'autrice" />
-
-          <div>
-            <p class="nom">Hawa Kone</p>
-            <h2>A propos de moi</h2>
-            <p class="para1">Hawakone831@gmail.com</p>
-
-            <p class="Para3">
-              Je suis passionnée par le monde du numérique. J’ai décidé de me
-              professionnaliser dans le développement web et acquis de solides
-              compétences sur le html/css. Je sais créer une page web, un
-              formulaire avec du html/css. J’ai obtenu ma licence en
-              communication à l’Université Virtuelle du Sénégal. Mon objectif:
-              travailler comme développeuse web.
-            </p>
-            <button>Télécharger</button>
-          </div>
-        </section>
-        <section class="section2">
+          <h2>A propos de moi</h2>
           <div class="row">
-          <img src="Images/JVD.png" alt="Image du jeu" class="col-4" />
+            <img
+              src="Images/PHmoi.jpg"
+              alt="Une photo de l'autrice"
+              class="col-4"
+            />
 
-          <div class="col-4">
-            <p class="Paragraphe1">Bou l’aventurier</p>
-            <h2>A propos de Bou</h2>
-            <p>
-              Le petit robot appelé Bou, avec sa personnalité attachante et son
-              courage indomptable, est le cœur de l’histoire. C’est la
-              combinaison de courage et de capacité qui fait de lui un héros
-              inoubliable. Dans ce jeu, les joueurs ne sont pas seulement
-              confrontés à des défis, mais aussi à une histoire captivante qui
-              se déroule au fur et à mesure qu’ils progressent. C’est un voyage
-              d’aventure, de découverte et, finalement, d’héroïsme. Utilisez les
-              flèches du clavier pour guider Bou
-            </p>
-            <a href="https://declick.net/execute/22824">
-              Cliquez sur lien du jeu pour essayer
-            </a>
+            <div class="col-8">
+              <h3 class="nom">Hawa Kone</h3>
+              <p class="para1">Hawakone831@gmail.com</p>
+
+              <p class="Para3">
+                Je suis passionnée par le monde du numérique. J’ai décidé de me
+                professionnaliser dans le développement web et acquis de solides
+                compétences sur le html/css. Je sais créer une page web, un
+                formulaire avec du html/css. J’ai obtenu ma licence en
+                communication à l’Université Virtuelle du Sénégal. Mon objectif:
+                travailler comme développeuse web.
+              </p>
+              <!-- <a href="" class="monCV">Télécharger mon CV</a> -->
+              <a href="CV/CV_Hawa_KONE_DV.pdf" class="button" target="_blank"
+                >Voir mon CV</a
+              >
+            </div>
           </div>
-        </div>
         </section>
+        <!-- SECTION A PROPOS DU JEU -->
+        <section class="section2">
+          <h2>A propos de Bou</h2>
+          <div class="row">
+            <img src="Images/JVD.png" alt="Image du jeu" class="col-6" />
+
+            <div class="col-6">
+              <h3 class="Paragraphe1">Bou l’aventurier</h3>
+              <p>
+                Le petit robot appelé Bou, avec sa personnalité attachante et
+                son courage indomptable, est le cœur de l’histoire. C’est la
+                combinaison de courage et de capacité qui fait de lui un héros
+                inoubliable. Dans ce jeu, les joueurs ne sont pas seulement
+                confrontés à des défis, mais aussi à une histoire captivante qui
+                se déroule au fur et à mesure qu’ils progressent. C’est un
+                voyage d’aventure, de découverte et, finalement, d’héroïsme.
+                Utilisez les flèches du clavier pour guider Bou
+              </p>
+              <a href="https://declick.net/execute/22824">
+                Cliquez sur lien du jeu pour essayer
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION HISTOIRE DE BOU -->
         <section class="section3">
-          <h2>L'histoir de Bou</h2>
-          <div>
-            <div>
-          <img src="Images/Bou1.png" alt="" class="col-4" />
-            <p class="para1">Bou</p>
+          <h2>L'histoire de Bou</h2>
+          <div class="row">
+            <div class="col-4">
+              <img src="Images/Bou1.png" alt="" />
+              <p class="para1">Bou</p>
+            </div>
+            <div class="col-8">
+              <p>
+                Bou est un petit robot qui a une particularité différente des
+                autres robots : la capacité à ressentir des émotions. Cette
+                singularité le rend mélancolique et seul. Il doit partir à la
+                recherche de ses semblables traversant des paysages étranges et
+                merveilleux….gare aux obstacles! C’est l'aventure d’un héros!
+                Soyez sa boussole et aidez le à réaliser son rêve afin qu’il
+                sorte de son état mélancolique.
+              </p>
+              <p>On n’est ni trop jeune ni trop vieux pour être un héros!</p>
+            </div>
           </div>
-          <div class="col-4">
-            <p>
-              Bou est un petit robot qui a une particularité différente des
-              autres robots : la capacité à ressentir des émotions. Cette
-              singularité le rend mélancolique et seul. Il doit partir à la
-              recherche de ses semblables traversant des paysages étranges et
-              merveilleux….gare aux obstacles! C’est l'aventure d’un héros!
-              Soyez sa boussole et aidez le à réaliser son rêve afin qu’il sorte
-              de son état mélancolique.
-            </p>
-            <p>On n’est ni trop jeune ni trop vieux pour être un héros!</p>
-          </div>
-        </div>
         </section>
-        <div  class="row">
-          <h2>jeu video</h2>
-          <div class="col-4">
-          <img
-            src="Images/ImaD.png"
-            alt="le point de départ image d'une ville"
-            class="col-4"
-          />
-        </div>
-          <div class="col-4">
-            <p class="paragraphe4">Le point de départ</p>
+        <!-- SECTION ILLUSTRATION DES NIVEAUX DU JEU -->
+        <section>
+          <div class="row">
+            <div class="col-6">
+              <img
+                src="Images/ImaD.png"
+                alt="le point de départ image d'une ville"
+              />
+              <p>jeu video</p>
+            </div>
+            <div class="col-6">
+              <p class="paragraphe4">Le point de départ</p>
 
-            <p>
-              L’aventure d’une nuit, l’aventure de l’espoir. L’aventure pour le
-              bonheur. Armez vous de courage.
-            </p>
+              <p>
+                L’aventure d’une nuit, l’aventure de l’espoir. L’aventure pour
+                le bonheur. Armez vous de courage.
+              </p>
+            </div>
+            <div class="col-6">
+              <p>
+                Découvre de nouveaux paysages en partant à l’aventure avec Bou.
+                Et surmontez ensemble les obstacles.
+              </p>
+            </div>
+            <div class="col-6">
+              <img
+                src="Images/Paysages.png"
+                alt="une autre paysage d'un autre niveau"
+              />
+              <p>Des paysages</p>
+            </div>
+            <div class="col-6">
+              <img
+                src="Images/Découvertes.png"
+                alt="Une nouvelle paysage dans un autre niveau"
+                class="col-4"
+              />
+              <p>Des découvertes</p>
+            </div>
+            <div class="col-6">
+              <p>
+                Nouveaux paysage, nouveaux défis. Bou est toujours au milieu de
+                sa quête.
+              </p>
+              <a href="https://declick.net/execute/22824"
+                >Clique sur le ici pour essayer le jeu</a
+              >
+            </div>
           </div>
-          <div>
-
-          <img
-            src="Images/Paysages.png"
-            alt="une autre paysage d'un autre niveau"
-            class="col-4"
-          />
-         <h2>Des paysages</h2>
-          </div>
-          <div class="col-4">
-            <p>
-              Découvre de nouveaux paysages en partant à l’aventure avec Bou. Et
-              surmontez ensemble les obstacles.
-            </p>
-          </div>
-          <img
-            src="Images/Découvertes.png"
-            alt="Une nouvelle paysage dans un autre niveau"
-            class="col-4"
-          />
-          <div class="col-4">
-            <h2>Des découvertes</h2>
-
-            <p>
-              Nouveaux paysage, nouveaux défis. Bou est toujours au milieu de sa
-              quête.
-            </p>
-            <a href="https://declick.net/execute/22824"
-              >Clique sur le ici pour essayer le jeu</a
-            >
-          </div>
+          <!-- </div> -->
+        </section>
+        <!-- SECTION EXTRAIT VIDEO DU JEU -->
+        <section>
           <p class="paravid">Petite extrait du jeu video</p>
-          <video src="Videos/video.mp4"></video>
-        </div>
+          <iframe src="Videos/video.mp4" frameborder="0"></iframe>
+          <!-- <video src="Videos/video.mp4"></video> -->
         </section>
       </main>
       <footer>
@@ -152,7 +170,6 @@
         />
         <p>Rue de tolbiac paris 13</p>
         <p>Hawakone831@gmail.com</p>
-
       </footer>
     </div>
   </body>
