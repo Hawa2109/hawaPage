@@ -245,6 +245,7 @@ button::before {
 .section3 img {
   border-radius: 0 15% 0 15%;
   margin-right: 30px;
+  mix-blend-mode: darken;
 }
 .paragraphe4 {
   font-weight: bold;
