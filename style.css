@@ -279,13 +279,17 @@ footer img {
   border-radius: 0 15% 0 15%;
   box-shadow: 15px 5px 5px rgb(0, 16, 91);
 }
+footer .text:hover {
+  text-decoration: underline rgb(145, 83, 1);
+}
+
 footer .text {
   text-align: end;
   width: 90%;
   height: 100%;
   font-size: 40px;
   font-weight: 600;
-  color: rgb(97, 97, 153);
+  color: rgb(218, 4, 104);
   text-shadow: 5px 0 rgb(0, 16, 91), 0 3px rgb(0, 16, 91), 3px 0 rgb(0, 16, 91),
     0 5px rgb(0, 16, 91);
 }
