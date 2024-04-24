@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 body {
@@ -76,6 +77,9 @@ h1 {
   font-size: 70px;
   height: 90px;
 }
+h1:hover {
+  text-decoration: underline rgb(19, 8, 88);
+}
 
 h2 {
   text-align: center;
@@ -86,8 +90,9 @@ h2 {
 h3 {
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 25px;
 }
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -117,14 +122,9 @@ header img {
 
 .navbar {
   background-color: rgb(178, 197, 233);
-  /* padding: 25px; */
-  /* vertical-align: middle; */
-  /* overflow: hidden; */
 }
 
 .navbar a {
-  /* float: right; */
-  /* display: block; */
   color: #030163;
   text-align: center;
   padding: 20px;
@@ -149,7 +149,6 @@ header img {
 
 .monCV {
   text-align: center;
-  /* margin: 0 auto; */
 }
 .para2 {
   text-decoration: underline;
@@ -218,19 +217,11 @@ button::before {
 /* PARTIE SECTION 2 / A PROPOS DU JEU */
 
 .section2 img {
-  /* width: 50%; */
-  /* height: auto; */
-  /* float: right; */
   border-radius: 15%;
-  /* margin-left: 4%; */
 }
-.section2 .Paragraphe1 {
-  /* font-weight: bold;
-  text-align: left; */
-}
+
 .section2 p {
   text-align: justify;
-  /* margin-left: 2%; */
 }
 .section2 a {
   text-align: center;
@@ -241,13 +232,17 @@ button::before {
 
 /* PARTIE SECTION 3 / HISTOIRE DE BOU */
 .section3 .para1 {
-  text-align: left;
+  text-align: right;
   font-weight: bold;
   color: rgb(104, 2, 2);
   margin-left: 10%;
+  font-size: 50px;
 }
+.section3 .para1:hover {
+  text-decoration: underline rgb(0, 16, 91);
+}
+
 .section3 img {
-  /* width: 50%; */
   border-radius: 0 15% 0 15%;
   margin-right: 30px;
 }
@@ -261,10 +256,6 @@ button::before {
 /* PARTIE SECTION EXTRAIT VIDEO */
 
 iframe {
-  /* border-radius: 0 0 0 0; */
-  /* width: 50%; */
-  /* height: 50%; */
-  /* border-radius: 15%; */
   display: block;
   margin: 0 auto;
   box-shadow: 15px 5px 5px rgb(32, 2, 100);
