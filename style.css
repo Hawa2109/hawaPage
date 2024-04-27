@@ -248,6 +248,7 @@ header img {
   font-weight: bold;
   color: rgb(113, 2, 11);
 }
+
 #ExtraitsDuJeu img {
   border-radius: 5% 5% 5% 5%;
 }
@@ -281,6 +282,9 @@ footer .logo {
   height: 10%;
   margin-left: 90%;
   align-items: flex-end;
+}
+footer .famille {
+  margin-left: 40%;
 }
 footer img {
   border-radius: 0 15% 0 15%;
