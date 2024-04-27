@@ -209,7 +209,7 @@ header img {
   font-size: 50px;
 }
 #HistoireDeBou .para1:hover {
-  text-decoration: underline rgb(0, 16, 91);
+  text-decoration: underline rgb(128, 4, 124);
 }
 
 #HistoireDeBou img {
@@ -233,6 +233,10 @@ header img {
   margin-left: 10%;
   font-size: 30px;
 }
+.titre1:hover {
+  text-decoration: underline rgb(128, 4, 124);
+}
+
 /* LA DEUXIEME BLOCK */
 
 #ExtraitsDuJeu .titre2 {
@@ -242,15 +246,15 @@ header img {
   margin-left: 10%;
   font-size: 30px;
 }
+.titre2:hover {
+  text-decoration: underline rgb(128, 4, 124);
+}
+
 #ExtraitsDuJeu a {
   text-align: center;
   margin-left: 4%;
   font-weight: bold;
   color: rgb(113, 2, 11);
-}
-
-#ExtraitsDuJeu img {
-  border-radius: 5% 5% 5% 5%;
 }
 
 /* LA TROIXIEME BLOCK */
@@ -262,6 +266,13 @@ header img {
   margin-left: 10%;
   font-size: 30px;
 }
+.titre3:hover {
+  text-decoration: underline rgb(128, 4, 124);
+}
+#ExtraitsDuJeu img {
+  border-radius: 5% 5% 5% 5%;
+}
+
 /* LA PARTIE DU VIDEO */
 
 iframe {
@@ -291,7 +302,7 @@ footer img {
   box-shadow: 15px 5px 5px rgb(0, 16, 91);
 }
 footer .text:hover {
-  text-decoration: underline rgb(145, 83, 1);
+  text-decoration: underline rgb(128, 4, 124);
 }
 
 footer .text {
