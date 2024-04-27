@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ma premiére page</title>
+    <title>Ma première page</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https : //fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -19,17 +19,18 @@
       <header class="headerFlex">
         <img src="Images/logo3.jpeg" alt="Logo" />
         <nav class="navbar headerFlex">
-          <a href="#accueil" class="">Accueil</a>
-          <a href="#AProposDuJeu" class=""> A propos du jeu</a>
-          <a href="#HistoireDeBou" class="">Histoire de Bou</a>
-          <a href="#Contact" class="">Contact</a>
+          <a href="#accueil">Accueil</a>
+          <a href="#AProposDuJeu">A propos du jeu</a>
+          <a href="#HistoireDeBou">Histoire de Bou</a>
+          <a href="#ExtraitsDuJeu">Etraits du jeu</a>
+          <a href="#Contact">Contact</a>
         </nav>
       </header>
 
       <main>
         <h1>Developpeuse web</h1>
         <!-- SECTION A PROPOS -->
-        <section class="section1">
+        <section id="accueil">
           <h2>A propos de moi</h2>
           <div class="row">
             <img
@@ -58,7 +59,7 @@
           </div>
         </section>
         <!-- SECTION A PROPOS DU JEU -->
-        <section class="section2">
+        <section id="AProposDuJeu">
           <h2>A propos de Bou</h2>
           <div class="row">
             <img src="Images/JVD.png" alt="Image du jeu" class="col-6" />
@@ -76,126 +77,113 @@
                 Utilisez les flèches du clavier pour guider Bou
               </p>
               <a href="https://declick.net/execute/22824">
-                Cliquez sur lien du jeu pour essayer
+                Cliquez sur le lien du jeu pour essayer
               </a>
             </div>
           </div>
         </section>
         <!-- SECTION HISTOIRE DE BOU -->
-        <section class="section3">
+        <section id="HistoireDeBou">
           <h2>L'histoire de Bou</h2>
           <div class="row">
             <div class="col-4">
               <img src="Images/Bou1.png" alt="une image du heros" />
-              <p class="para1">Bou</p>
             </div>
             <div class="col-8">
+              <p class="para1">Bou</p>
               <p>
                 Bou est un petit robot qui a une particularité différente des
                 autres robots : la capacité à ressentir des émotions. Cette
                 singularité le rend mélancolique et seul. Il doit partir à la
-                recherche de ses semblables traversant des paysages étranges et
-                merveilleux….gare aux obstacles! C’est l'aventure d’un héros!
-                Soyez sa boussole et aidez le à réaliser son rêve afin qu’il
-                sorte de son état mélancolique.
+                recherche de
               </p>
-              <p>On n’est ni trop jeune ni trop vieux pour être un héros!</p>
             </div>
           </div>
         </section>
-        <!-- SECTION ILLUSTRATION DES NIVEAUX DU JEU -->
-        <section>
+        <!-- SECTION EXTRAITS DU JEU -->
+        <section id="ExtraitsDuJeu">
+          <h2>Les extraits du jeu</h2>
           <div class="row">
-            <div class="col-6">
-              <img
-                src="Images/ImaD.png"
-                alt="le point de départ image d'une ville"
-              />
-              <p>jeu video</p>
+            <div class="col-5">
+              <img src="Images/ImaD.png" alt="image du point de départ " />
             </div>
             <div class="col-6">
-              <p class="paragraphe4">Le point de départ</p>
-
+              <p class="titre1">Point de départ</p>
               <p>
                 L’aventure d’une nuit, l’aventure de l’espoir. L’aventure pour
                 le bonheur. Armez vous de courage.
               </p>
             </div>
+            <div class="col-5">
+              <img
+                src="Images/Paysages.png"
+                alt="Un autre niveau"
+                class="image1"
+              />
+            </div>
             <div class="col-6">
+              <p class="titre2">Des Paysages</p>
               <p>
                 Découvre de nouveaux paysages en partant à l’aventure avec Bou.
                 Et surmontez ensemble les obstacles.
               </p>
             </div>
-            <div class="col-6">
-              <img
-                src="Images/Paysages.png"
-                alt="une autre paysage d'un autre niveau"
-              />
-              <p>Des paysages</p>
+            <div class="col-5">
+              <img src="Images/Découvertes.png" alt="" />
             </div>
             <div class="col-6">
-              <img
-                src="Images/PG.png"
-                alt="Une nouvelle paysage dans un autre niveau"
-                class="col-4"
-              />
-              <p>Des découvertes</p>
-            </div>
-            <div class="col-6">
+              <p class="titre3">Des Découvertes</p>
               <p>
                 Nouveaux paysage, nouveaux défis. Bou est toujours au milieu de
                 sa quête.
               </p>
-              <a href="https://declick.net/execute/22824"
-                >Clique sur le ici pour essayer le jeu</a
-              >
             </div>
+            <a href="https://declick.net/execute/22824"
+              >Clique sur lien ici pour essayer le jeu</a
+            >
           </div>
-          <!-- </div> -->
-        </section>
-        <!-- SECTION EXTRAIT VIDEO DU JEU -->
-        <section>
-          <p class="paravid">Petite extrait du jeu video</p>
-          <iframe src="Videos/video.mp4" frameborder="0"></iframe>
+          <section>
+            <p class="paravid">Petite extrait du jeu video</p>
+            <iframe src="Videos/video.mp4" frameborder="0"></iframe>
+          </section>
         </section>
       </main>
-      <footer>
-        <img src="Images/logo3.jpeg" alt="Une petite logo" class="logo" />
-        <p class="text">Aprés une longue traversée. Voici le jour.</p>
-        <img
-          src="Images/OIG3.jpeg"
-          alt="Une photo de famille témoin du fin de jeu"
-        />
-        <ul class="icone">
-          <li>
-            <a href="#"
-              ><img src="Images/Icones/instagram.png" alt="instagram"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="Images/Icones/facebook.png" alt="facebook"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="Images/Icones/linkedin.png" alt="linkedin"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="Images/Icones/twitter (1).png" alt="twitter"
-            /></a>
-          </li>
-        </ul>
-        <marquee>
-          <img src="Images/Bou2.png" alt="Bou" />
-        </marquee>
-        <p>Rue de tolbiac paris 13</p>
-        <p>Hawakone831@gmail.com</p>
-        <p>© 2024 My premiére JV</p>
-      </footer>
     </div>
+    <footer id="Contact">
+      <img src="Images/logo3.jpeg" alt="Une petite logo" class="logo" />
+      <p class="text">Aprés une longue traversée. Voici le jour.</p>
+      <img
+        src="Images/OIG3.jpeg"
+        alt="Une photo de famille témoin du fin de jeu"
+      />
+      <ul class="icone">
+        <li>
+          <a href="#"
+            ><img src="Images/Icones/instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="Images/Icones/facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="Images/Icones/linkedin.png" alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="Images/Icones/twitter (1).png" alt="twitter"
+          /></a>
+        </li>
+      </ul>
+      <marquee>
+        <img src="Images/Bou2.png" alt="Bou" />
+      </marquee>
+      <p>Rue de tolbiac paris 13</p>
+      <p>Hawakone831@gmail.com</p>
+      <p>© 2024 My premiére JV</p>
+    </footer>
   </body>
 </html>

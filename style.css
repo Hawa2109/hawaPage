@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Roboto condense, sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: rgb(178, 197, 233);
   line-height: 1.5;
 }
@@ -110,14 +110,6 @@ header img {
   border-radius: 50%;
   width: 10%;
   height: 10%;
-  /* align-items: start; */
-  /* margin-left: auto; */
-  /* float: left; */
-}
-
-.headerPadding {
-  padding: 0;
-  /* vertical-align: middle; */
 }
 
 .navbar {
@@ -140,10 +132,10 @@ header img {
 
 /* SECTION 1 / A PROPOS */
 
-.section1 .nom {
+#accueil .nom {
   font-weight: bold;
 }
-.section1 img {
+#accueil img {
   border-radius: 85% 85% 0 0;
 }
 
@@ -153,13 +145,13 @@ header img {
 .para2 {
   text-decoration: underline;
 }
-.section1 p {
+#accueil p {
   margin-left: 40px;
 }
-.section1 P :first-child {
+#accueil P :first-child {
   text-align: center;
 }
-.section1 .para1 {
+#accueil .para1 {
   font-weight: bold;
 }
 /* PARTIE BUTTON */
@@ -191,39 +183,17 @@ header img {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-button:hover::before {
-  -webkit-animation: sh02 0.5s 0s linear;
-  -moz-animation: sh02 0.5s 0s linear;
-  animation: sh02 0.5s 0s linear;
-}
-button::before {
-  content: "";
-  display: block;
-  width: 0px;
-  height: 86%;
-  position: absolute;
-  top: 7%;
-  left: 0%;
-  opacity: 0;
-  background: #fff;
-  box-shadow: 0 0 50px 30px #fff;
-  -webkit-transform: skewX(-20deg);
-  -moz-transform: skewX(-20deg);
-  -ms-transform: skewX(-20deg);
-  -o-transform: skewX(-20deg);
-  transform: skewX(-20deg);
-}
 
 /* PARTIE SECTION 2 / A PROPOS DU JEU */
 
-.section2 img {
+#AProposDuJeu img {
   border-radius: 15%;
 }
 
-.section2 p {
+#AProposDuJeu p {
   text-align: justify;
 }
-.section2 a {
+#AProposDuJeu a {
   text-align: center;
   margin-left: 4%;
   font-weight: bold;
@@ -231,18 +201,18 @@ button::before {
 }
 
 /* PARTIE SECTION 3 / HISTOIRE DE BOU */
-.section3 .para1 {
-  text-align: right;
+#HistoireDeBou .para1 {
+  text-align: center;
   font-weight: bold;
   color: rgb(104, 2, 2);
   margin-left: 10%;
   font-size: 50px;
 }
-.section3 .para1:hover {
+#HistoireDeBou .para1:hover {
   text-decoration: underline rgb(0, 16, 91);
 }
 
-.section3 img {
+#HistoireDeBou img {
   border-radius: 0 15% 0 15%;
   margin-right: 30px;
   mix-blend-mode: darken;
@@ -253,15 +223,51 @@ button::before {
   margin-left: 25%;
   font-size: large;
 }
+/* SECTION EXTRAITS DU JEU */
+/* LA PREMIERE BLOCK */
 
-/* PARTIE SECTION EXTRAIT VIDEO */
+#ExtraitsDuJeu .titre1 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(104, 2, 2);
+  margin-left: 10%;
+  font-size: 30px;
+}
+/* LA DEUXIEME BLOCK */
+
+#ExtraitsDuJeu .titre2 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(104, 2, 2);
+  margin-left: 10%;
+  font-size: 30px;
+}
+#ExtraitsDuJeu a {
+  text-align: center;
+  margin-left: 4%;
+  font-weight: bold;
+  color: rgb(113, 2, 11);
+}
+#ExtraitsDuJeu img {
+  border-radius: 5% 5% 5% 5%;
+}
+
+/* LA TROIXIEME BLOCK */
+
+#ExtraitsDuJeu .titre3 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(104, 2, 2);
+  margin-left: 10%;
+  font-size: 30px;
+}
+/* LA PARTIE DU VIDEO */
 
 iframe {
   display: block;
   margin: 0 auto;
   box-shadow: 15px 5px 5px rgb(32, 2, 100);
 }
-
 /* PARTIE FOOTER */
 
 footer p {
