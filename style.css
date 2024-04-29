@@ -84,7 +84,11 @@ h1:hover {
 h2 {
   text-align: center;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 50px;
+  color: rgb(2, 4, 74);
+}
+h2:hover {
+  text-decoration: underline rgb(128, 4, 124);
 }
 
 h3 {
@@ -139,7 +143,7 @@ header img {
   font-weight: bold;
 }
 #accueil .nom:hover {
-  text-decoration: underline rgb(128, 4, 124);
+  text-decoration: underline rgb(216, 10, 96);
 }
 #accueil img {
   border-radius: 85% 85% 0 0;
@@ -223,7 +227,7 @@ header img {
   margin-top: 5%;
 }
 #HistoireDeBou .para1:hover {
-  text-decoration: underline rgb(128, 4, 124);
+  text-decoration: underline rgb(216, 10, 96);
 }
 
 #HistoireDeBou img {
@@ -252,7 +256,7 @@ header img {
   margin-top: 5%;
 }
 .titre1:hover {
-  text-decoration: underline rgb(128, 4, 124);
+  text-decoration: underline rgb(216, 10, 96);
 }
 
 /* LA DEUXIEME BLOCK */
@@ -265,7 +269,7 @@ header img {
   font-size: 30px;
 }
 .titre2:hover {
-  text-decoration: underline rgb(128, 4, 124);
+  text-decoration: underline rgb(216, 10, 96);
 }
 
 #ExtraitsDuJeu a {
@@ -273,6 +277,7 @@ header img {
   margin-left: 4%;
   font-weight: bold;
   color: rgb(113, 2, 11);
+  margin: 20px;
 }
 
 /* LA TROIXIEME BLOCK */
@@ -285,11 +290,12 @@ header img {
   font-size: 30px;
 }
 .titre3:hover {
-  text-decoration: underline rgb(128, 4, 124);
+  text-decoration: underline rgb(216, 10, 96);
 }
 #ExtraitsDuJeu img {
   border-radius: 5% 5% 5% 5%;
 }
+
 #ExtraitsDuJeu .lien:hover {
   color: #e61c8b;
 }
@@ -312,7 +318,7 @@ video {
   margin: 20px;
 }
 .paravid:hover {
-  text-decoration: underline rgb(128, 4, 124);
+  text-decoration: underline rgb(216, 10, 96);
 }
 
 /* PARTIE FOOTER */
@@ -337,21 +343,17 @@ footer img {
   border-radius: 0 15% 0 15%;
   box-shadow: 15px 5px 5px rgb(0, 16, 91);
 }
-footer .text:hover {
-  text-decoration: underline rgb(128, 4, 124);
-}
 
 footer .text {
   text-align: end;
   justify-content: center;
-
   width: 90%;
   height: 100%;
   font-size: 40px;
   font-weight: 600;
-  color: rgb(218, 4, 104);
-  text-shadow: 5px 0 rgb(0, 16, 91), 0 3px rgb(0, 16, 91), 3px 0 rgb(0, 16, 91),
-    0 5px rgb(0, 16, 91);
+  color: rgb(90, 2, 9);
+  text-shadow: 5px 0 rgb(225, 76, 106), 0 3px rgba(225, 76, 106),
+    3px 0 rgba(225, 76, 106), 0 5px rgba(225, 76, 106);
 }
 /*  ICONES */
 
