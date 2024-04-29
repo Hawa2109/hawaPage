@@ -124,16 +124,22 @@ header img {
 }
 
 .navbar a:hover {
-  background-color: #7fa0cb;
-  color: #ffffff;
+  background-color: rgb(178, 197, 233);
+  color: #e61c8b;
 }
 
 /* PARTIE MAIN */
 
 /* SECTION 1 / A PROPOS */
+#accueil {
+  margin-top: 10%;
+}
 
 #accueil .nom {
   font-weight: bold;
+}
+#accueil .nom:hover {
+  text-decoration: underline rgb(128, 4, 124);
 }
 #accueil img {
   border-radius: 85% 85% 0 0;
@@ -159,7 +165,7 @@ header img {
 .button {
   position: absolute;
   padding: 10px 20px;
-
+  margin: 5% 5% 5% 5%;
   border-radius: 7px;
   border: 2px solid rgb(19, 8, 88);
   font-size: 14px;
@@ -186,10 +192,15 @@ header img {
 
 /* PARTIE SECTION 2 / A PROPOS DU JEU */
 
+#AProposDuJeu {
+  margin-top: 5%;
+}
 #AProposDuJeu img {
   border-radius: 15%;
 }
-
+#AProposDuJeu a:hover {
+  color: #e61c8b;
+}
 #AProposDuJeu p {
   text-align: justify;
 }
@@ -208,6 +219,9 @@ header img {
   margin-left: 10%;
   font-size: 50px;
 }
+#HistoireDeBou {
+  margin-top: 5%;
+}
 #HistoireDeBou .para1:hover {
   text-decoration: underline rgb(128, 4, 124);
 }
@@ -223,6 +237,7 @@ header img {
   margin-left: 25%;
   font-size: large;
 }
+
 /* SECTION EXTRAITS DU JEU */
 /* LA PREMIERE BLOCK */
 
@@ -232,6 +247,9 @@ header img {
   color: rgb(104, 2, 2);
   margin-left: 10%;
   font-size: 30px;
+}
+#ExtraitsDuJeu {
+  margin-top: 5%;
 }
 .titre1:hover {
   text-decoration: underline rgb(128, 4, 124);
@@ -272,14 +290,31 @@ header img {
 #ExtraitsDuJeu img {
   border-radius: 5% 5% 5% 5%;
 }
+#ExtraitsDuJeu .lien:hover {
+  color: #e61c8b;
+}
 
 /* LA PARTIE DU VIDEO */
 
-iframe {
+video {
+  width: 70%;
   display: block;
   margin: 0 auto;
-  box-shadow: 15px 5px 5px rgb(32, 2, 100);
+  border-radius: 0 15% 0 15%;
+  box-shadow: 15px 5px 5px rgb(0, 16, 91);
 }
+.paravid {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(104, 2, 2);
+  margin-left: 10%;
+  font-size: 30px;
+  margin: 20px;
+}
+.paravid:hover {
+  text-decoration: underline rgb(128, 4, 124);
+}
+
 /* PARTIE FOOTER */
 
 footer p {
@@ -296,6 +331,7 @@ footer .logo {
 }
 footer .famille {
   margin-left: 40%;
+  margin-top: 20px;
 }
 footer img {
   border-radius: 0 15% 0 15%;
@@ -307,6 +343,8 @@ footer .text:hover {
 
 footer .text {
   text-align: end;
+  justify-content: center;
+
   width: 90%;
   height: 100%;
   font-size: 40px;
@@ -319,11 +357,31 @@ footer .text {
 
 .icone {
   /* Définir la taille de l'icône */
-  width: 35%;
-  height: 35%;
+  width: 20%;
+  height: 18%;
 
   /* Centrer le contenu de l'icône */
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  margin-left: 5%;
+}
+.icone .ins {
+  margin-left: 20px;
+}
+.icone .fa {
+  margin-left: 20px;
+}
+.icone .link {
+  margin-left: 20px;
+}
+.icone .twi {
+  margin-left: 20px;
+}
+.dynamic {
+  box-shadow: none;
+}
+marquee {
+  mix-blend-mode: darken;
+  border-radius: 55%;
 }
