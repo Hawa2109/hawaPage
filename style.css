@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: radial-gradient(
     circle,
-    rgb(16, 26, 78) 0%,
+    rgba(198, 205, 240) 5%,
     rgba(239, 149, 167, 0.932) 100%
   );
   line-height: 1.5;
@@ -121,7 +121,8 @@ header img {
 }
 
 .navbar {
-  background-color: none;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
 }
 
 .navbar a {
@@ -392,82 +393,26 @@ marquee {
   mix-blend-mode: darken;
   border-radius: 55%;
 }
-/* BOUTON MODE DARK */
-input span {
-  height: 60%;
-  margin-left: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.24s;
-  color: #1e1e1e;
-  background: linear-gradient(
-    to bottom right,
-    #eefff4 25%,
-    #a0ffd9 50%,
-    #5c0095 75%,
-    #01072a
-  );
-  background-size: 300% 300%;
-  background-position: top left;
-  transition: background-position 0.5s;
+/* MEDIAS QUERIES */
+@media screen and (min-width: 80rem) {
+  .container {
+    margin: 1em 2em;
+  }
+  img,
+  video {
+    max-width: 100%;
+  }
 }
-input {
-  visibility: hidden;
+html {
+  font-size: 1em;
 }
-label {
-  display: block;
-  height: 2px;
-  width: 3px;
-  font-size: 3px;
-  border: 20px solid currentColor;
-  border-radius: 2px;
-  -webkit-tap-highlight-color: transparent;
-  cursor: pointer;
-  position: relative;
+
+h1 {
+  font-size: 2rem;
 }
-label::before,
-label::after {
-  content: "";
-  display: block;
-  border-radius: 1px;
-  position: absolute;
-  z-index: 1;
-}
-label::after {
-  width: 3px;
-  height: 3px;
-  box-shadow: 15px 15px #5901d8;
-  right: 10px;
-  top: 70px;
-}
-label::before {
-  width: 80px;
-  height: 80px;
-  background-color: #ffc409;
-  outline: 0.3px dotted #ffc409;
-  outline-offset: 80px;
-  left: 8px;
-  top: 8px;
-}
-span {
-  display: block;
-  width: 2px;
-  height: 2px;
-  background-color: currentColor;
-  border-radius: 3px;
-  top: 3px;
-  left: 3px;
-  overflow: hidden;
-  position: absolute;
-  text-indent: -9999px;
-  transition: left 0.25s;
-  z-index: 2;
-}
-input:checked ~ label span {
-  left: 2px;
-}
-input span:has(input:checked) {
-  background-position: 100% 100%;
-  color: #d0d0d0;
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
