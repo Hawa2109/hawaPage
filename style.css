@@ -100,6 +100,21 @@ h3 {
   font-weight: bold;
   font-size: 25px;
 }
+ .nom span{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 .container {
   width: 90%;
@@ -220,6 +235,22 @@ header img {
   font-weight: bold;
   color: rgb(113, 2, 11);
 }
+.Paragraphe1 span
+{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 /* PARTIE SECTION 3 / HISTOIRE DE BOU */
 #HistoireDeBou .para1 {
@@ -247,6 +278,21 @@ header img {
   margin-left: 25%;
   font-size: large;
 }
+.para1 span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 /* SECTION EXTRAITS DU JEU */
 /* LA PREMIERE BLOCK */
@@ -264,6 +310,21 @@ header img {
 .titre1:hover {
   text-decoration: underline rgb(216, 10, 96);
 }
+.titre1 span{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 /* LA DEUXIEME BLOCK */
 
@@ -285,6 +346,21 @@ header img {
   color: rgb(113, 2, 11);
   margin: 20px;
 }
+.titre2 span {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 /* LA TROIXIEME BLOCK */
 
@@ -305,6 +381,21 @@ header img {
 #ExtraitsDuJeu .lien:hover {
   color: #e61c8b;
 }
+.titre3 span{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 /* LA PARTIE DU VIDEO */
 
@@ -326,6 +417,21 @@ video {
 .paravid:hover {
   text-decoration: underline rgb(216, 10, 96);
 }
+.paravid span{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+  0%{
+  transform: translateY(0px);
+  }
+  20%{
+  transform: translateY(-20px); 40%, 100%
+  }
+  }
 
 /* PARTIE FOOTER */
 
