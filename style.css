@@ -5,11 +5,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: radial-gradient(
-    circle,
-    rgba(198, 205, 240) 5%,
-    rgba(239, 149, 167, 0.932) 100%
-  );
+  background: linear-gradient(to bottom, #daa7f8d6 35%, #660066 100%);
   line-height: 1.5;
 }
 
@@ -148,7 +144,7 @@ header img {
 }
 
 .navbar a:hover {
-  background-color: rgb(231, 152, 219);
+  background-color: rgb(90, 3, 94);
   color: #e61c8b;
   border-radius: 50%;
 }
