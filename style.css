@@ -149,6 +149,14 @@ header img {
   border-radius: 50%;
 }
 
+/* Fixer la navbar en haut de la page */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 80%;
+  left: 15%;
+}
+
 /* PARTIE MAIN */
 
 /* SECTION 1 / A PROPOS */
